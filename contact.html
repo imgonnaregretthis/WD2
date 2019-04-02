@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+  <title>Travel the World</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="code.js"></script>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+ <body>
+  <div class="container4">
+  <header>
+      <h1>Let's Travel the World!</h1>
+      <h3>It's the Journey AND the Destination</h3>
+  </header>
+
+  <nav id="flex-nav">
+<a href="#" class="toggleNav">&#9776; Menu</a> <!--This will only be visible less than 480px wide-->
+    <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="destination.html">Destination</a></li>
+    <li><a href="special.html">Special</a></li>
+    <li><a href="blog.html">Travel Blog</a></li>
+    <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+  </nav>
+
+<main>
+
+  <h2>Contact Us</h2>
+
+  <p>Use this form to allow us to get in touch with you in 1 business day!</p>
+  <p>* = Required Field</p>
+
+ <form class="nestedgrid2">
+   <div class="div1">
+    Name* <br><input type="text" size="30" placeholder="John/Jane Doe" name="name"> <br>
+
+    Email* <br><input type="email" size="30" placeholder="email@example.com" name="email"> <br>
+
+    Phone* <br><input type="tel" size="30" placeholder="(XXX)XXX-XXXX" name="phone"> <br>
+
+    Personal Website <br><input type="url" size="30" placeholder="URL" name="website">
+   </div>
+
+   <div class="div2">
+    Next Destination <br><input size="30" list="vaca" name="destination"> <br>
+  <datalist id="vaca">
+   <option value="Beijing">
+   <option value="Lisbon">
+   <option value="Paris">
+   <option value="Sydney">
+   <option value="Tokyo">
+   <option value="Washington D.C.">
+  </datalist>
+
+    Expected Date of Departure <br><input type="date" name="date"> <br>
+
+    Number of Nights on Trip <br><input type="number" min="1" max="8" step="1" placeholder="#" name="number"> <br>
+
+    <input type="submit" size="30" value="Help Me Book My Trip!" class="button">
+   </div>
+ </form>
+
+  <div class="call">
+    Or Call Us
+   <div class="phone">
+    1-888-TRAVEL1
+    </div>
+  </div>
+</main>
+
+<footer>
+        <p> &copy; Travel The World LLC</p>
+        <p>123 Main Street</p>
+        <p>Sometown, USA 12345</p>
+</footer>
+
+</div>
+
+</body>
+
+</html>
